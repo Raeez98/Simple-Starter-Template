@@ -38,7 +38,7 @@
           /* padding-bottom:10px 10px; */
            display: grid; 
           place-items: center;
-          gap:10px;
+          gap:15px;
          
         }
       .home{
@@ -64,10 +64,10 @@
               
           }
           .contact{
-            padding-bottom: 98px;
+            padding-bottom: 60px;
           }
           .gmail{
-              padding-bottom: 40px;
+              padding-bottom: 56px;
           }
       
       #sidebar-footer{
@@ -88,7 +88,7 @@
           font-style:bold;
       }
       #first-paragraph{
-          font-size: 24px;
+          font-size: 20px;
           padding:10px;
           color:white;
           padding-bottom:20px;
@@ -106,7 +106,7 @@
       }
       .my-images img{
           max-width:176px;
-          width:100px;
+          width:100%;
 
       }
      
@@ -128,7 +128,8 @@
       #second-paragraph{
           color:white;
           font-size: 16px;
-          padding-top:10px;
+          padding-top:5px;
+          
       }
       .icon-image{
            width:17px;
