@@ -3,4 +3,174 @@
           box-sizing: border-box;
       }
       /* Your code goes here */
+      body{
+          display: grid;
+          grid-template-columns: auto 1fr;
+          background-color: #050729;
+      }
+      body::after{
+          background-image: url(./assets/images/car-3075497_12801.png);
+          display: block;
+          top:0;
+          bottom:0;
+          right:0;
+          left:0;
+          z-index:-1;
+
+
+        
+      }
+      html,body,.side-bar{
+          height:100%;
+      }
+      .top-conatiner{
+         display: grid;
+         background-color:#0B0B0D80;
+         padding-right: 40px;
+         padding-left:40px;
+        
+       
+        
+      }
+      .side-bar{
+         
+          color:white;
+          /* padding-bottom:10px 10px; */
+           display: grid; 
+          place-items: center;
+          gap:10px;
+         
+        }
+      .home{
+         color: #A276FF;
+         
+      }
+     
+      .right-section{
+          padding: 40px;
+      }
+      h2{
+          
+          color:white;
+          font-size:35px;
+      }
+      h1{
+         color: #A276FF;
+         font-size:85px;
+           
+      }
+      .support{
+        padding-bottom: 22px
+              
+          }
+          .contact{
+            padding-bottom: 98px;
+          }
+          .gmail{
+              padding-bottom: 40px;
+          }
       
+      #sidebar-footer{
+          color:white;
+          text-align: center;
+          margin-top: auto;
+    /* padding: 10px; */
+         
+    }
+    
+    
+    .right-section{
+        padding:80px 0 0;
+        margin-left:70px;
+    }
+      .top-title{
+          padding-bottom: 10px;
+          font-style:bold;
+      }
+      #first-paragraph{
+          font-size: 24px;
+          padding:10px;
+          color:white;
+          padding-bottom:20px;
+          font-family:roboto;
+
+      }
+      .my-images{
+          display: grid;
+          gap:30px ;
+          grid-template-columns: repeat(4,auto);
+          justify-content: start;
+          padding-top:15px;
+          padding-bottom: 30px;
+          margin-top:10px;
+      }
+      .my-images img{
+          max-width:176px;
+          width:100px;
+
+      }
+     
+      button{
+          border-radius: 17px;
+        padding:10px 70px;
+        font-weight: bold;
+        text-align: center;
+        color:white;
+        font-size:20px;
+        background:none;
+        border:solid 3px #FFFFFF;
+      }
+      .news{
+          color:white;
+          font-size:36px;
+          padding-bottom: 15px;;
+      }
+      #second-paragraph{
+          color:white;
+          font-size: 16px;
+          padding-top:10px;
+      }
+      .icon-image{
+           width:17px;
+      }
+     
+      
+      @media screen and (max-width:800px){
+
+         .my-images{
+             grid-template-columns:repeat(2,auto);
+          }
+         
+         .right-section{
+             margin:0 ;
+             padding:25px;
+         }
+         .top-title{
+             padding:0;
+         }
+         .top-title h2{
+
+           font-size:24px;
+             
+         }
+         .top-title h1{
+             font-size: 48px;
+         }
+      }
+      @media  screen and  (max-width: 500px){
+        .top-title h2{
+            font-size:20px;
+        }
+        .top-title h1{
+            font-size: 32px;
+        }
+        button{
+            padding:5px 20px;
+        }
+      
+          
+      }
+          
+      
+      
+  
